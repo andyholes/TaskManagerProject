@@ -1,0 +1,5 @@
+<h5>Title: {{ task?.title }}</h5>
+<p>Description: {{ task?.desc }}</p>
+<p>Completed: {{ task?.completed ? 'Yes' : 'No' }}</p>
+
+<button (click)="deleteTask()">Delete</button>
